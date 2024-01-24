@@ -1,3 +1,6 @@
 body {
   background-color: magenta;
 }
+footer a {
+  text-decoration: none;
+}
