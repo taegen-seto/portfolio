@@ -1,6 +1,17 @@
 body {
-  background-color: magenta;
+  background-color: black;
+  color: magenta;
+  text-align: center;
+}
+footer {
+  margin-top: 50px;
 }
 footer a {
   text-decoration: none;
+  color: white;
+}
+.container {
+  max-width: 900px;
+  text-align: center;
+  margin-top: 150px;
 }
