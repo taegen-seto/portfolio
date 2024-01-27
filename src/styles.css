@@ -1,17 +1,33 @@
-body {
+.body-homepage {
   background-color: black;
   color: magenta;
   text-align: center;
 }
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
 footer {
   margin-top: 50px;
+  text-align: center;
 }
 footer a {
-  text-decoration: none;
-  color: white;
+  color: black;
 }
 .container {
-  max-width: 900px;
   text-align: center;
   margin-top: 150px;
+  background-color: #d4d4d4;
+  max-width: 1200px;
+}
+.project-link {
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: white;
+}
+.launch-btn {
+  margin-bottom: 30px;
 }
