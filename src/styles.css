@@ -9,7 +9,7 @@ body {
   background-color: black;
   color: #db137e;
 }
-.body-projects-page {
+.body-subpage {
   background: linear-gradient(
     to top,
     lightgrey 0%,
@@ -35,7 +35,7 @@ h3 {
   text-align: center;
   color: #db137e;
   margin: 50px 0;
-  letter-spacing: 3px;
+  letter-spacing: 22px;
 }
 h4 {
   font-family: "PT Sans Narrow", sans-serif;
@@ -61,7 +61,6 @@ p {
 }
 img {
   width: 100%;
-  border-radius: 200px;
   box-shadow: #bcbcbc;
 }
 a {
@@ -121,4 +120,36 @@ footer a {
 }
 .second-row {
   margin-bottom: 100px;
+}
+.bio {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 22px;
+  margin: 80px;
+}
+.contact {
+  margin: 150px 120px 0 0;
+  text-align: end;
+  letter-spacing: 3px;
+  padding: 0;
+}
+.contact a {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+}
+.icon {
+  color: #db137e;
+  font-size: 25px;
+  margin: 10px;
+}
+.headshot {
+  border-radius: 200px;
+  border-right: 5px dotted #db137e;
+}
+.Bella {
+  border-radius: 100px;
+  margin: 50px 0 100px 150px;
+  max-width: 600px;
+  padding: 0;
 }
