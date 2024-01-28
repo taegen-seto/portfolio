@@ -9,6 +9,17 @@ body {
   background-color: black;
   color: #db137e;
 }
+.body-projects-page {
+  background: linear-gradient(
+    to top,
+    lightgrey 0%,
+    lightgrey 1%,
+    #e0e0e0 26%,
+    #efefef 48%,
+    #d9d9d9 75%,
+    #bcbcbc 100%
+  );
+}
 h1 {
   font-family: "Sedgwick Ave Display", cursive;
   font-size: 220px;
@@ -16,11 +27,42 @@ h1 {
 h2 {
   font-family: "Delius Unicase", cursive;
   font-size: 27px;
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
+}
+h3 {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 100px;
+  text-align: center;
+  color: #db137e;
+  margin: 50px 0;
+  letter-spacing: 3px;
+}
+h4 {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+h5 {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 22px;
+  text-align: center;
+  margin: 77px 0;
+}
+p {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  text-align: center;
 }
 img {
   width: 100%;
   border-radius: 200px;
+  box-shadow: #bcbcbc;
 }
 a {
   text-decoration: none;
@@ -55,22 +97,28 @@ footer a {
 .navbar-nav .nav-link.active {
   color: #db137e;
 }
-.container {
-  margin: 100px 0 0 30px;
+.homepage-container {
+  margin: 100px 0 0 40px;
 }
 .project-link {
-  background-color: black;
-  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 16px 32px;
   border-radius: 7px;
   color: white;
+  display: block;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 1.5;
 }
 .launch-btn {
-  margin-bottom: 30px;
+  margin: 20px 0 0 0;
 }
-
-font-family: "Codystar", sans-serif;
-font-family: "Delius Unicase", cursive;
-font-family: "Poppins", sans-serif;
-font-family: "PT Mono", monospace;
-font-family: "Roboto Mono", monospace;
-font-family: "Sedgwick Ave Display", cursive;
+.first-row {
+  margin-bottom: 50px;
+}
+.second-row {
+  margin-bottom: 100px;
+}
