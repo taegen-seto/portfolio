@@ -1,6 +1,3 @@
-body {
-  font-family: "Poppins", sans-serif;
-}
 .body-homepage {
   background-image: url(./images/pink-explosion.jpeg);
   background-repeat: no-repeat;
@@ -26,8 +23,9 @@ h1 {
 }
 h2 {
   font-family: "Delius Unicase", cursive;
-  font-size: 27px;
+  font-size: 33px;
   color: rgba(255, 255, 255, 0.5);
+  margin-left: 100px;
 }
 h3 {
   font-family: "Sedgwick Ave Display", cursive;
@@ -45,6 +43,7 @@ h4 {
   line-height: 1.5;
   text-align: center;
   margin: 0;
+  letter-spacing: 3px;
 }
 h5 {
   font-family: "PT Sans Narrow", sans-serif;
@@ -58,6 +57,7 @@ p {
   color: rgba(0, 0, 0, 0.4);
   font-size: 16px;
   text-align: center;
+  letter-spacing: 2px;
 }
 img {
   width: 100%;
@@ -72,29 +72,44 @@ a :hover {
 footer {
   margin: 700px 0 0 0;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 0;
+  letter-spacing: 3px;
+  font-weight: 200;
+  font-size: 13px;
 }
 footer a {
-  color: black;
+  color: white;
 }
 .container-fluid {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 10px;
 }
 .navbar {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 0;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .navbar-brand {
-  color: white;
+  color: #db137e;
+  font-family: "Delius Unicase", cursive;
+  font-size: 22px;
+  margin-right: 50px;
 }
 .nav-link {
   color: white;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 22px;
+  letter-spacing: 3px;
+  margin-right: 15px;
 }
 .navbar-nav .nav-link.active {
-  color: #db137e;
+  color: black;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 22px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  opacity: 0.9;
 }
 .homepage-container {
   margin: 100px 0 0 40px;
@@ -149,7 +164,7 @@ footer a {
 }
 .Bella {
   border-radius: 100px;
-  margin: 50px 0 100px 150px;
+  margin: 50px 0 100px 100px;
   max-width: 600px;
   padding: 0;
 }
