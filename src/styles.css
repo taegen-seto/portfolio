@@ -1,7 +1,22 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
 .body-homepage {
+  background-image: url(./images/pink-explosion.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   background-color: black;
-  color: magenta;
-  text-align: center;
+  color: #db137e;
+}
+h1 {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 220px;
+}
+h2 {
+  font-family: "Delius Unicase", cursive;
+  font-size: 27px;
+  color: white;
 }
 img {
   width: 100%;
@@ -10,18 +25,38 @@ img {
 a {
   text-decoration: none;
 }
+a :hover {
+  cursor: pointer;
+}
 footer {
-  margin-top: 50px;
+  margin: 700px 0 0 0;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 0;
 }
 footer a {
+  color: black;
+}
+.container-fluid {
+  background-color: black;
+  padding: 10px;
+}
+.navbar {
+  background-color: black;
+  padding: 0;
+  opacity: 0.6;
+}
+.navbar-brand {
   color: white;
 }
+.nav-link {
+  color: white;
+}
+.navbar-nav .nav-link.active {
+  color: #db137e;
+}
 .container {
-  text-align: center;
-  margin-top: 150px;
-  background-color: #d4d4d4;
-  max-width: 1200px;
+  margin: 100px 0 0 30px;
 }
 .project-link {
   background-color: black;
@@ -32,3 +67,10 @@ footer a {
 .launch-btn {
   margin-bottom: 30px;
 }
+
+font-family: "Codystar", sans-serif;
+font-family: "Delius Unicase", cursive;
+font-family: "Poppins", sans-serif;
+font-family: "PT Mono", monospace;
+font-family: "Roboto Mono", monospace;
+font-family: "Sedgwick Ave Display", cursive;
