@@ -180,7 +180,7 @@ footer a {
   border-color: #d0047c;
   color: #d0047c;
 }
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   h1 {
     font-size: 66px;
   }
