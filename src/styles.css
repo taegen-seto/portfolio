@@ -2,6 +2,8 @@
   background-image: url(./images/pink-powder.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   background-color: black;
   color: #d0047c;
 }
@@ -173,4 +175,30 @@ footer a {
   margin: 50px 0 100px 100px;
   max-width: 600px;
   padding: 0;
+}
+.navbar-toggler {
+  border-color: #d0047c;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 66px;
+  }
+  h2 {
+    font-size: 77px;
+  }
+  h6 {
+    font-size: 10px;
+  }
+  .homepage-container {
+    margin: 30px 10px 0 0;
+  }
+  footer {
+    font-size: 10px;
+    margin: 350px 0 50px 0;
+    padding: 10px 0;
+  }
+  footer a {
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0;
+  }
 }
