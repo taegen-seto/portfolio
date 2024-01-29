@@ -178,6 +178,7 @@ footer a {
 }
 .navbar-toggler {
   border-color: #d0047c;
+  color: #d0047c;
 }
 @media (max-width: 900px) {
   h1 {
@@ -214,7 +215,7 @@ footer a {
   }
   footer {
     font-size: 10px;
-    margin: 350px 0 50px 0;
+    margin: 250px 0 50px 0;
     padding: 10px 0;
   }
   footer a {
@@ -243,5 +244,19 @@ footer a {
   }
   .icon {
     font-size: 22px;
+  }
+  .back-to-top {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: rgba(208, 4, 124, 0.4);
+    margin: 20px 0;
+    padding: 10px 0;
+    border-radius: 22px;
+    max-width: 100%;
+    display: block;
+    color: white;
+    text-transform: uppercase;
   }
 }
