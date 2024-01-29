@@ -207,6 +207,11 @@ footer a {
   .second-row {
     margin-bottom: 0px;
   }
+  .bio {
+    font-size: 16px;
+    margin: 20px;
+    text-align: center;
+  }
   footer {
     font-size: 10px;
     margin: 350px 0 50px 0;
@@ -215,5 +220,28 @@ footer a {
   footer a {
     color: rgba(255, 255, 255, 0.5);
     letter-spacing: 0;
+  }
+  .headshot {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+  .Bella {
+    border-radius: 20px;
+    margin: 10px 0;
+  }
+  .contact {
+    margin: 20px 0;
+    text-align: end;
+    letter-spacing: 3px;
+    padding: 0;
+  }
+  .contact a {
+    font-family: "PT Sans Narrow", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+  }
+  .icon {
+    font-size: 22px;
   }
 }
