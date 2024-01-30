@@ -17,6 +17,7 @@
     #d9d9d9 75%,
     #bcbcbc 100%
   );
+  min-height: 100vh;
 }
 h1 {
   font-family: "Sedgwick Ave Display", cursive;
@@ -178,7 +179,6 @@ footer a {
 }
 .navbar-toggler {
   border-color: #d0047c;
-  color: #d0047c;
 }
 @media (max-width: 960px) {
   h1 {
@@ -207,6 +207,10 @@ footer a {
   footer a {
     color: rgba(255, 255, 255, 0.5);
     letter-spacing: 0;
+  }
+  .navbar-icon {
+    color: #d0047c;
+    font-size: 30px;
   }
   .homepage-container {
     margin: 30px 10px 0 0;
@@ -265,5 +269,10 @@ footer a {
     display: block;
     color: white;
     text-transform: uppercase;
+  }
+}
+@media (max-width: 1400px) {
+  h4 {
+    font-size: 10px;
   }
 }
