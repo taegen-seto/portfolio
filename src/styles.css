@@ -140,6 +140,12 @@ footer a:hover {
   text-transform: uppercase;
   line-height: 1.5;
 }
+.project-link:hover {
+  color: #acacac;
+  background-color: white;
+  transition: all 200ms ease-in-out;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
 .launch-btn {
   margin: 20px 0 0 0;
 }
@@ -274,6 +280,4 @@ footer a:hover {
     color: white;
     text-transform: uppercase;
   }
-}
-@media (max-width: 1400px) {
 }
