@@ -89,6 +89,10 @@ footer {
 footer a {
   color: white;
 }
+footer a:hover {
+  text-decoration: underline;
+  color: #d0047c;
+}
 .container-fluid {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 10px;
