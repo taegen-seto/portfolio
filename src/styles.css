@@ -90,7 +90,6 @@ footer a {
   color: white;
 }
 footer a:hover {
-  text-decoration: underline;
   color: #d0047c;
 }
 .container-fluid {
@@ -177,6 +176,9 @@ footer a:hover {
   font-family: "PT Sans Narrow", sans-serif;
   color: rgba(0, 0, 0, 0.5);
   font-size: 22px;
+}
+.contact a:hover {
+  color: #d0047c;
 }
 .icon {
   color: #d0047c;
